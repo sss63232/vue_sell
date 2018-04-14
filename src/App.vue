@@ -7,13 +7,8 @@
 </template>
 
 <script>
-<<<<<<< HEAD
 import MyHeader from "./components/Header/Header";
 import MyNav from "./components/Nav/Nav";
-=======
-import HelloWorld from "./components/HelloWorld";
-import test from "./components/test";
->>>>>>> develop
 
 export default {
   name: "App",
