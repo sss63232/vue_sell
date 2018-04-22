@@ -1,13 +1,18 @@
 <template>
   <div class="header">
-      Header component
+    {{poiInfo.name}}
   </div>
 </template>
 
 <script>
-export default {
-
-}
+  export default {
+    props: {
+      poiInfo: {
+        type: Object,
+        default: {},
+      },
+    },
+  };
 </script>
 
 <style>
