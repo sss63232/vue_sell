@@ -1,5 +1,9 @@
 {
-  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "extends": [
+    "plugin:vue/essential",
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ],
   "env": {
     "browser": true,
     "commonjs": true,
